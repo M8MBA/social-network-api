@@ -9,6 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(require('./routes'));
 
+// double check local host
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/social-network', {
   useNewUrlParser: true,
   useUnifiedTopology: true
