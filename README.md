@@ -15,10 +15,10 @@
 
   ## Installation
   ### You must install the following for this app to function:
-  ### You must have Node.js installed on your local machine. You can find installation instructions here: https://nodejs.org/en/ . You will also need to install the command line utility which can be found here: https://www.npmjs.com/package/inquirer or by simply typing: npm install inquirer, on the command line.
+  ### You must have MongoDB installed on your local machine.
 
   ## Usage
-  ### Walkthrough Video - https://youtu.be/EVkQgzAXPrQ
+  ### Walkthrough Video - https://youtu.be/wqpSjbTgYnQ
 
   ## Contributors
   ### Express.js
@@ -30,7 +30,10 @@
 
   ## Tests
   ### Run the following commands in your terminal to test this app:
-  ### 
+  ### npm init
+  ### npm i express
+  ### npm i mongoose
+  ### npm start
 
   ## Questions
   ### If you have any questions, please contact me at
